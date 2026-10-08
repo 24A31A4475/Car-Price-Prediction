@@ -1,0 +1,20 @@
+{
+    "model_type": "RandomForestRegressor",
+    "trained_timestamp": "2026-10-08 09:02:25",
+    "features": [
+        "Present_Price",
+        "Driven_kms",
+        "Fuel_Type",
+        "Selling_type",
+        "Transmission",
+        "Owner",
+        "Car_Age"
+    ],
+    "target": "Selling_Price",
+    "metrics": {
+        "r2_score": 0.9583,
+        "mae": 0.6529,
+        "rmse": 0.9804,
+        "cv_r2_mean": 0.8792
+    }
+}
